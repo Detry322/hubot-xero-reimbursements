@@ -1,0 +1,27 @@
+{
+  "name": "hubot-xero-reimbursements",
+  "description": "A script allows users to submit reimbursements to xero.",
+  "version": "1.0.0",
+  "author": "Jack Serrino <jserrino@gmail.com>",
+  "license": "MIT",
+
+  "keywords": "hubot, hubot-scripts",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Detry322/hubot-xero-reimbursements.git"
+  },
+
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "request": "^2.69.0",
+    "stream-buffers": "^3.0.0",
+    "xero": "git+https://github.com/Detry322/xero.git"
+  },
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "main": "index.coffee"
+}
