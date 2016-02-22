@@ -4,13 +4,14 @@
 # Commands:
 #   hubot xero help - Displays a short help message, can file reimbursements!
 #
-# Hidden:
-#   hubot xero member add <slack name> [email, optional]- Allow a user to submit reimbursements
-#   hubot xero member delete <slack name> - Removes user access to submit reimbursements
-#
-# Config:
+# Configuration:
 #   HUBOT_XERO_CONSUMER_KEY
 #   HUBOT_XERO_CONSUMER_SECRET
+#
+# Notes:
+#   <Hidden commands>
+#   hubot xero member add <slack name> [email, optional]- Allow a user to submit reimbursements
+#   hubot xero member delete <slack name> - Removes user access to submit reimbursements
 #
 # Author:
 #   Detry322
